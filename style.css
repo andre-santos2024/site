@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+body{
+    font-size: 62.5%;  
+}
+.conteiner{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*nav bar - menu */
+header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: .8rem 0;
+}
+.header{
+    background-color: #F4F4F4;
+
+}
+.logo{
+    width: 80px;
+}
+.header-menu{
+    display: flex;
+    gap: 2rem;
+    font-size: .9rem;
+}
+.header-menu a{
+    color: #3C3939;
+    text-transform: capitalize;
+}
+.header-menu .nav-title {
+    color: #8D1B3D;
+
+}
+.header-menu a:hover{
+    border-bottom: 2px solid rgb(141, 27, 61);
+}
+
+/*banner*/
+.banner{
+    background-image: linear-gradient(rgba(141, 27, 61, 0.74), rgba(141, 27, 61, 0.76)),url(image/wallpaper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 514px;
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.wrpper-banner img{
+    width: 348px;
+    height: 414px;
+    
+}
+/*conteudo principal */
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 3rem 0;
+}
+.cards-grup img{
+    width: 30px;
+}
+article{
+    background-color: #F4F4F4;
+    padding: 1.2rem;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    margin: 0rem 1rem;
+}
+
+.main-grups{
+    display: flex;
+    justify-content: center;
+}
+.cards-grup{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+
+}
+.grup-cards{
+    text-align: start;
+    text-transform: uppercase;
+}
+.cards-grup p{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.action-proximo{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.action{
+    width: 800px;
+    margin-bottom: 4rem;
+}
+hr{
+    background-color: #F4F4F4;
+}
+/*próximos jogos*/
+
+.date-jogos{
+    display: flex;
+    gap: 15rem;
+    width: 96%;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.proximos-jogos img{
+    width: 60px;
+}
+.proximos-jogos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+.wrapper-jogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.data{
+    display: flex;
+    gap: 1rem;
+    
+}
+.proximos-jogos p{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.data p{
+    color: #8D1B3D;
+    font-weight: bold;
+}
+.btn{
+    margin: 3rem 0;
+}
+.todos-jogos{
+    text-transform: uppercase;
+    color: #8D1B3D;
+    font-weight: bold;
+    font-size: .8rem;
+    background-color:#FFF2F6;
+    padding: .8rem 2rem;
+    border: 1px solid ;
+}
+
+/*roda pé */
+
+footer{
+    background-color: #8D1B3D;
+    padding: 2.5rem 0;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    gap: 5rem;
+
+}
+h4{
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.redes-sociais p{
+    margin: 10px 0;
+    color: white;
+    text-transform: capitalize;
+    font-size: .7rem;
+}
